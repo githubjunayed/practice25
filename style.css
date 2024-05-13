@@ -1,0 +1,193 @@
+.header-text{
+    width: 600px;
+    margin: auto;
+}
+body,h1,h2,h3,p,a{
+    font-family: "League Spartan", sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.header-text p{
+
+}
+.header-text h3{
+    color: #7d8cef;
+    font-size: 20px;
+
+}
+.header-text h1{
+    text-transform: capitalize;
+    font-size:50px;
+    position: relative;
+}
+.header-text h1::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 100%;
+    left: 250px;
+    background: #7d8cef;
+}
+.item-section{
+    width: 200px;
+    margin: auto;
+}
+.item-section h1{
+    border-bottom: 2px solid #ddd;
+    padding: 30px 0;
+    font-size: 60px;
+    font-weight: 1000;
+}
+.item-section{
+
+}
+.item-section a{
+    text-decoration: none;
+    display: inline-block;
+    background:#0d6efd;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.item-section a::before{
+    content: "";
+    position: absolute;
+    width:0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    background: green;
+    border-radius: 30px;
+    z-index: -1;
+    transition: 1s;
+    
+}
+.item-section a:hover::before{
+    width: 100%;
+
+}
+.slider-section{
+    background: url(https://img.hotimg.com/free-bg.jpeg);
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::before{
+    content: "";
+    position: absolute;
+    background:rgba(13,110,253, .5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
+.text-write{
+    width: 500px;
+    margin: auto;
+}
+.text-write a{
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    padding: 15px 40px;
+    color: #0d6efd;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+
+}
+.text-write h1{
+    text-transform: capitalize;
+    padding: 20px 0;
+    position: relative;
+}
+.text-write h1::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    top: 100%;
+    left: 200px;
+    background: #fff;
+}
+.text-write a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: Red;
+    z-index: -1;
+    transition: 1s;
+    border-radius: 30px;
+
+}
+.text-write a:hover::before{
+    width: 100%;
+    color: #000;
+}
+.form-section{
+    margin-top: 40px;
+}
+.big-section{
+    background: #3763eb;
+    padding: 55px 20px;
+}
+.inputfirst{
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+   
+}
+.submitbutton{
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.big-section h4{
+    width: 400px;
+}
+.text{
+    width: 400px;
+    padding: 50px;
+}
+.text a{
+    display: inline-block; 
+    text-decoration: none;
+    background: #0d6efd;
+    padding: 10px 30px;
+    width: 150px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
